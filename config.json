@@ -1,0 +1,38 @@
+{
+  "refreshInterval": 10000,
+  "debug": false,
+  "kickUsers": [
+    {
+      "username": "mexuuu",
+      "displayName": "mexuuu"
+    },
+    {
+      "username": "xBreno",
+      "displayName": "Breno"
+    },
+    {
+      "username": "xChives",
+      "displayName": "chives"
+    },
+    {
+      "username": "samekfps",
+      "displayName": "samek"
+    },
+    {
+      "username": "szteron",
+      "displayName": "szteron"
+    },
+    {
+      "username": "fanowsky",
+      "displayName": "fanowsky"
+    },
+    {
+      "username": "PoeBunny",
+      "displayName": "PoeBunny"
+    },
+    {
+      "username": "czesioinvi",
+      "displayName": "Napletti"
+    }
+  ]
+}
