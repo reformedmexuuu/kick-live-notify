@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ciepłe Dudki – Kick Live</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Ciepłe Dudki – Kick Live</h1>
+  </header>
+
+  <main>
+    <div class="stats">
+      <span id="members">Streamerów: —</span>
+      <span id="liveCount">Live: —</span>
+      <button id="refreshBtn" title="Odśwież teraz">⟳</button>
+    </div>
+
+    <div class="pov-selector">
+      <label for="pov">Filtr:</label>
+      <select id="pov">
+        <option value="all">Wszyscy</option>
+        <option value="live">Tylko Live</option>
+        <option value="offline">Tylko Offline</option>
+      </select>
+      <input id="search" type="search" placeholder="Szukaj nicku..." />
+    </div>
+
+    <div id="banner" class="banner hidden"></div>
+
+    <div id="streamers" class="streamers">Ładowanie streamerów...</div>
+  </main>
+
+  <footer>
+    <small>Źródło statusu: Kick.com (endpoint kanału). Strona nie jest powiązana z Kick Inc.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
